@@ -1,0 +1,26 @@
+name: SEO integrity check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regenerate catalogue SEO pages
+        run: node scripts/generate-seo-pages.mjs
+      - name: Ensure generated pages are committed
+        run: git diff --exit-code
+      - name: Validate metadata, schema, sitemap and links
+        run: node scripts/validate-seo.mjs

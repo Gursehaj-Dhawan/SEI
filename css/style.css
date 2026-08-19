@@ -329,6 +329,7 @@ html[data-theme="dark"] .text-link {
 }
 
 .brand__mark {
+  background-image: url("/images/logo.png");
   align-items: center;
   background: var(--orange);
   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
@@ -900,6 +901,121 @@ html[data-theme="dark"] .stat__number {
 .product-card__actions .btn {
   flex: 1;
   padding-inline: 12px;
+}
+
+.product-card__image {
+  display: block;
+}
+
+.product-card__body h3 a {
+  color: inherit;
+}
+
+.product-card__body h3 a:hover {
+  color: var(--orange);
+}
+
+.category-directory {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 28px;
+  padding: 22px 24px;
+}
+
+.category-directory > p {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.category-directory__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-directory__links a {
+  background: var(--mist);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-weight: 650;
+  padding: 10px 15px;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.category-directory__links a:hover,
+.category-directory__links a[aria-current="page"] {
+  border-color: var(--orange);
+  color: var(--orange);
+  transform: translateY(-2px);
+}
+
+.product-detail-grid {
+  align-items: center;
+  display: grid;
+  gap: clamp(38px, 6vw, 84px);
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.product-detail__visual {
+  background: var(--navy);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  min-height: 560px;
+  overflow: hidden;
+}
+
+.product-detail__visual img {
+  height: 100%;
+  min-height: 560px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-specs {
+  margin-top: 28px;
+}
+
+.product-specs li {
+  align-items: baseline;
+  gap: 30px;
+  padding: 12px 0;
+}
+
+.product-specs strong {
+  max-width: 62%;
+  text-align: right;
+}
+
+.product-detail__actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.capability-panel {
+  background: var(--navy);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: #fff;
+  padding: clamp(30px, 5vw, 58px);
+}
+
+.capability-panel h3 {
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.capability-panel .checks li {
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .process-flow {
