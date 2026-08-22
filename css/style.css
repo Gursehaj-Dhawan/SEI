@@ -331,16 +331,10 @@ html[data-theme="dark"] .text-link {
 .brand__mark {
   background-image: url("/images/logo.png");
   align-items: center;
-  background: var(--orange);
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
   display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.72rem;
-  font-weight: 800;
-  height: 42px;
+  height: 57px;
   justify-content: center;
-  letter-spacing: -0.05em;
-  width: 42px;
+  width: 67px;
 }
 
 .brand__text {
@@ -351,6 +345,7 @@ html[data-theme="dark"] .text-link {
   letter-spacing: 0.01em;
   line-height: 1.05;
   text-transform: uppercase;
+  margin-left: -20px;
 }
 
 .brand__text small {
@@ -360,6 +355,7 @@ html[data-theme="dark"] .text-link {
   font-weight: 400;
   letter-spacing: 0.16em;
   margin-top: 5px;
+  margin-bottom: 4px;
 }
 
 .nav-links {
