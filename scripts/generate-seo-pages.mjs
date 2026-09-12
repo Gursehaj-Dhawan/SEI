@@ -63,7 +63,7 @@ const products = [
     name: "Mild Steel Hexagon Bar",
     category: "mild",
     tag: "Mild Steel",
-    image: "https://images.pexels.com/photos/386236/pexels-photo-386236.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/Hex-Bar4.png",
     description: "Precision-drawn six-sided bars with clean edges, dependable tolerances and consistent machinability.",
     intro: "Mild steel hexagon bars are manufactured for repeatable across-flat dimensions and efficient machining. They are a practical choice for fasteners, fittings, tools and precision components where clean corners and consistent stock matter.",
     grade: "Mild steel / custom grades",
@@ -78,7 +78,7 @@ const products = [
     name: "MS Square Bars",
     category: "mild",
     tag: "Mild Steel",
-    image: "https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/Square-Bar2.jpeg",
     description: "Uniform mild steel square sections manufactured for fabrication, machining and structural applications.",
     intro: "MS square bars provide a versatile solid section for frames, machinery, supports and machined components. We manufacture to the grade, side dimension, length, finish and quantity agreed for the application.",
     grade: "Mild steel",
@@ -93,7 +93,7 @@ const products = [
     name: "SAE 1018 Round Bright Bars",
     category: "bright",
     tag: "Bright Bar",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/Sae-1080.jpeg",
     description: "Low-carbon bright bars valued for weldability, surface finish, dimensional accuracy and machinability.",
     intro: "SAE 1018 round bright bars are widely selected for shafts, pins, bushes and general precision components. Cold drawing improves the surface and dimensional consistency available to production teams.",
     grade: "SAE 1018",
@@ -108,7 +108,7 @@ const products = [
     name: "Alloy Steel Bright Round Bar",
     category: "alloy",
     tag: "Alloy Steel",
-    image: "/images/Bright-Round-Bars.webp",
+    image: "/images/Bright-Round-Bars.jpeg",
     description: "High-performance alloy bars designed for strength, wear resistance and demanding engineered parts.",
     intro: "Alloy steel bright round bars are made for components where material strength and consistent machining stock are central to performance. Grade, heat-treatment condition, dimensions and finish are confirmed against the buyer's specification.",
     grade: "Custom alloy grades",
@@ -123,7 +123,7 @@ const products = [
     name: "Mild Steel Flat Bar",
     category: "mild",
     tag: "Mild Steel",
-    image: "/images/Flat-Bright-Bars.webp",
+    image: "/images/Flat-Bright-Bars.jpeg",
     description: "Straight, flat steel sections with dependable width and thickness control for diverse industrial work.",
     intro: "Mild steel flat bars are used across brackets, frames, supports, base plates and general fabricated parts. Our manufacturing review covers width, thickness, edge condition, length, finish and quantity.",
     grade: "Mild steel",
@@ -138,7 +138,7 @@ const products = [
     name: "16mm CR5 Round Steel Bright Bar",
     category: "bright",
     tag: "Bright Bar",
-    image: "https://images.pexels.com/photos/2760243/pexels-photo-2760243.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/Round-Bar4.png",
     description: "A 16 mm bright round bar offering controlled dimensions and a clean surface for precision production.",
     intro: "The 16 mm CR5 round bright bar is intended for production teams that need a defined diameter and a machining-ready bright finish. Confirm the required material condition, tolerance, straightness, cut length and quantity with our team.",
     grade: "CR5",
@@ -153,7 +153,7 @@ const products = [
     name: "EN1A Bright Hex Bar",
     category: "bright",
     tag: "Free Cutting",
-    image: "https://images.pexels.com/photos/386236/pexels-photo-386236.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/Hex-Bar3.png",
     description: "Free-machining EN1A hexagonal bars for efficient, repeatable production of precision components.",
     intro: "EN1A bright hex bars combine a free-machining grade with a consistent six-sided section. They are suited to CNC and automatic machining of fittings, fasteners and repeated precision parts.",
     grade: "EN1A",
@@ -168,7 +168,7 @@ const products = [
     name: "Cold Drawn Bright Bar",
     category: "bright",
     tag: "Cold Drawn",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/Round-Bar2.png",
     description: "Cold-drawn sections with improved surface finish, dimensional accuracy, straightness and consistency.",
     intro: "Cold drawn bright bars give manufacturers more controlled stock than conventional hot-rolled sections. The process supports tighter dimensions, improved straightness and a clean surface in round, square and hexagonal profiles.",
     grade: "Multiple grades",
@@ -183,7 +183,7 @@ const products = [
     name: "Carbon Steel Round Bars",
     category: "carbon",
     tag: "Carbon Steel",
-    image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/carbon-steel-round-bars.jpeg",
     description: "Robust carbon steel rounds developed for reliable strength across manufacturing and engineering use.",
     intro: "Carbon steel round bars provide solid machining stock for axles, machine parts and industrial equipment. Selection depends on the required grade, mechanical performance, diameter, finish and downstream process.",
     grade: "Carbon steel grades",
@@ -198,7 +198,7 @@ const products = [
     name: "Round Steel Bars",
     category: "specialty",
     tag: "General Purpose",
-    image: "https://images.pexels.com/photos/256381/pexels-photo-256381.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/images/lc-round-bar.jpeg",
     description: "Versatile round steel bars supplied in selected grades, sizes and finishes to match project needs.",
     intro: "Round steel bars are a core raw material for engineering, fabrication and component manufacturing. Share the material grade, diameter, tolerance, finish, length and order volume so we can review the right route.",
     grade: "As specified",
@@ -213,7 +213,7 @@ const products = [
     name: "Mild Steel Square Bright Bar",
     category: "bright",
     tag: "Bright Bar",
-    image: "/images/Diagonal-Cutting-Bright-Square-Bars.webp",
+    image: "/images/Diagonal-Cutting-Bright-Square-Bars.jpeg",
     description: "Bright-finished square bars combining smooth surfaces with accurate corners and cross-sections.",
     intro: "Mild steel square bright bars provide clean faces, controlled corners and consistent stock for fixtures, frames and precision components. They are made to agreed section dimensions, tolerances and lengths.",
     grade: "Mild steel",
@@ -228,7 +228,7 @@ const products = [
     name: "Half Round Steel Bar",
     category: "specialty",
     tag: "Special Profile",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/half-round-bars.png",
     description: "Special half-round profiles manufactured for close fit, aesthetic detail and custom applications.",
     intro: "Half round steel bars reduce the need to machine a full round section when the application needs one flat face and one curved face. They can support guides, trim, fabricated parts and special engineering designs.",
     grade: "As specified",
@@ -375,7 +375,7 @@ const organization = {
     ...products.map((product) => product.name)
   ],
   sameAs: [
-    "https://www.instagram.com/indiasteelexperts/"
+    "https://www.instagram.com/steel_experts_india_?igsi=MTNhYm1tZHhjdm9heA=="
   ]
 };
 
@@ -508,7 +508,7 @@ function header(prefix = "../../", homeHref = `${prefix}`) {
 function footer(prefix = "../../", homeHref = `${prefix}`) {
   return `<footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-about"><a class="brand" href="${homeHref}"><img class="brand__mark" src="${prefix}images/logo.png" alt="Steel Experts India logo" width="48" height="48"><span class="brand__text">Steel Experts India<small>Precision Steel. Trusted Since 1978.</small></span></a><p>Manufacturer of mild steel, bright, carbon and alloy steel bars for precision engineering and industrial applications.</p><div class="social-links"><a href="https://www.instagram.com/indiasteelexperts/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a><a href="https://wa.me/919217492174" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a></div></div>
+      <div class="footer-about"><a class="brand" href="${homeHref}"><img class="brand__mark" src="${prefix}images/logo.png" alt="Steel Experts India logo" width="48" height="48"><span class="brand__text">Steel Experts India<small>Precision Steel. Trusted Since 1978.</small></span></a><p>Manufacturer of mild steel, bright, carbon and alloy steel bars for precision engineering and industrial applications.</p><div class="social-links"><a href="https://www.instagram.com/steel_experts_india_?igsi=MTNhYm1tZHhjdm9heA==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a><a href="https://wa.me/919217492174" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a></div></div>
       <div><h2 class="footer-title">Quick Links</h2><ul class="footer-links"><li><a href="${prefix}about.html">About Us</a></li><li><a href="${prefix}products.html">Products</a></li><li><a href="${prefix}process.html">Manufacturing</a></li><li><a href="${prefix}gallery.html">Gallery</a></li><li><a href="${prefix}contact.html">Contact</a></li></ul></div>
       <div><h2 class="footer-title">Product Categories</h2><ul class="footer-links">${categories.map((category) => `<li><a href="${prefix}categories/${category.slug}/">${category.shortName}</a></li>`).join("")}</ul></div>
       <div><h2 class="footer-title">Factory</h2><address class="footer-address">Plot No. 231, Guru Gobind Singh Industrial Enclave, Dehlon Road, Sahnewal Khurd, Punjab – 141120</address><a class="footer-phone" href="tel:+919217492174">+91 92174 92174</a><br><a class="footer-phone" href="tel:+919915000270">+91 99150 00270</a></div>

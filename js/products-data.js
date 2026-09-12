@@ -235,7 +235,7 @@ window.SEI_PRODUCTS = [
     "name": "Half Round Steel Bar",
     "category": "specialty",
     "tag": "Special Profile",
-    "image": "images/half-round-bars.png",
+    "image": "/images/half-round-bars.png",
     "description": "Special half-round profiles manufactured for close fit, aesthetic detail and custom applications.",
     "intro": "Half round steel bars reduce the need to machine a full round section when the application needs one flat face and one curved face. They can support guides, trim, fabricated parts and special engineering designs.",
     "grade": "As specified",
