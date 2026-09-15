@@ -5,7 +5,7 @@
   const status = form.querySelector(".form-status");
   const emailButton = form.querySelector("[data-send-email]");
   const whatsappButton = form.querySelector("[data-send-whatsapp]");
-  const emailRecipient = "info@steelexpertsindia.com";
+  const emailRecipient = "steelexpertsindia@gmail.com";
   const whatsappNumber = "919217492174";
   const productField = form.elements.product;
   const requestedProduct = new URLSearchParams(location.search).get("product");

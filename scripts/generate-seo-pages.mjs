@@ -354,7 +354,7 @@ const organization = {
   description: "Manufacturer of bright, mild, carbon, alloy and special-profile steel bars in Punjab, India.",
   foundingDate: "1978",
   telephone: ["+91-92174-92174", "+91-99150-00270"],
-  email: "info@steelexpertsindia.com",
+  email: "steelexpertsindia@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Plot No. 231, Guru Gobind Singh Industrial Enclave, Dehlon Road",
